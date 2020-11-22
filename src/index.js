@@ -7,7 +7,7 @@ document.getElementById("create-task-form").addEventListener('submit', function(
    let taskList = document.getElementById("tasks");
    
     taskList.innerHTML += `<li> ${newTaskDesc} </li>`;
-    //e.preventDeafault()
+    e.preventDeafault()
     
   });
 });
